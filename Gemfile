@@ -19,16 +19,17 @@ end
 gem 'jquery-rails'
 
 group :production do
-    gem 'pg'
+  gem 'pg'
 end
 group :development, :test do
-    gem 'sqlite3'
-    gem 'rspec'
-    gem 'rspec-rails'
-    gem 'spork'
-    gem 'guard'
-     gem 'guard-rspec', '1.2.1'
-       gem 'annotate', '2.5.0'
+  gem 'sqlite3'
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'spork'
+  gem 'guard'
+  gem 'guard-rspec', '1.2.1'
+  gem 'annotate', '2.5.0'
+  gem 'slim'
 
 end
 
