@@ -23,6 +23,11 @@ group :production do
 end
 group :development, :test do
     gem 'sqlite3'
+    gem 'rspec'
+    gem 'rspec-rails'
+    gem 'spork'
+    gem 'guard'
+
 end
 
 # To use ActiveModel has_secure_password
