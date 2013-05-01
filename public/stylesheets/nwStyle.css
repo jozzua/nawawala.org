@@ -1,0 +1,85 @@
+/*
+	Additional Style for Quick Bootstrapping
+	Project SWM - NAWAWALA.org
+*/
+
+body{background: url(../images/agsquare.png); border-top:3px solid #da8813;}
+	.container{position: relative;}
+	.nwHeader h1{float:left; padding-bottom:10px;}
+	.nwHeader nav{float:right; margin:50px 10px 0 0; }
+	.nwHeader nav a{margin:0 0 0 20px; color:#da8813; text-decoration: none;}
+	.nwHeader nav a:hover,.nwHeader nav a.active{color:#2a2927;}
+	.nwHeader hr{border-color:#f2fafe;}
+		.nwHeader.subpage hr{border-color:#ddd;}
+
+	.nwHero{text-align: center; background:#aeddf6; margin:-30px 0 20px; padding:30px 0 0; border-bottom:1px solid #f2fafe;}
+	.nwHero h2{font-size:28px; line-height:20px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color: #16435a;}
+	.nwHero p{color:#16435a;}
+	
+	.nwHero .donateBtn{display: block; text-align:center; padding:15px 0; font-weight:bold; color:#ffffff !important; font-size:22px; background:#da8813; text-decoration: none; border-radius: 6px;}
+	.nwHero .donateBtn:hover{background: #f49815;}
+
+	.nwPeople{padding-left:10px;}
+	.nwPeople .nwmPerson{padding:15px; border-radius: 6px; background:#fff; position: relative; box-sizing:border-box; border:1px solid #eee; margin:0 4px 10px; box-shadow: 0 0 4px #ddd;}
+	.nwPeople .nwmPerson img.person{width: 190px; margin-bottom:0; border-top-right-radius: 6px; border-top-left-radius: 6px; position: relative;}
+		.nwmPerson .missing{background:#de666e; width:190px;font-size:11px; color:#fff; text-align: center; margin:-6px 0 0px; padding:1px 0; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; }
+		.nwmPerson .found{background:#2f793c; width:190px;font-size:11px; color:#fff; text-align: center; margin:-6px 0 0px; padding:1px 0; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px; }
+		.nwmPerson h3{font-size:20px; padding:6px 0 2px; text-align: center; margin-bottom:0px; border-bottom:1px solid #eee; font-family: Helvetica, Arial, sans-serif; font-weight: bold; color:#444;}
+		.nwmPerson p{font-size:12px; }
+		.nwmPerson p em{float:left; width:190px; background:#f3f3f3; font-style: normal; text-transform: uppercase; letter-spacing: 1px; font-size:10px; padding:0px 0; text-align:center; }
+		.nwmPerson p i{float:left; width:190px; box-sizing:border-box; padding:5px 10px 15px; border-bottom:1px solid #abf4b7; line-height: 18px; color:#777; }
+		
+			.sShare{text-align: center; margin-bottom:5px; display: none; position: absolute; width: 190px; bottom:40px; background:#eee;}
+			.sShare h4{font-family: 'Helvetica', sans-serif; font-size:12px; margin-bottom:0;}
+			.sShare a{margin:0 2px;}
+		.nwmPerson nav{float:left; width:190px; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;}
+			.nwmPerson nav a{float:left; text-decoration: none; box-sizing:border-box; padding:3px 0px; font-size:12px; background:#a1e7ad; color:#2f793c; margin:0; text-align: center; }
+		
+				.nwmPerson nav a:hover{background: #b9f4c3;}
+			.nwmPerson nav a.share{width:25%; border-bottom-left-radius: 6px; border-right: 1px solid #abf4b7;}
+			.nwmPerson nav a.organize{width:75%; border-bottom-right-radius: 6px;}
+
+			.subpage .nwmPerson nav a.edit{width:25%; border-right: 1px solid #abf4b7;border-left: 1px solid #abf4b7;}
+			.subpage  .nwmPerson nav a.delete{width:45%;  border-right: 1px solid #abf4b7; border-bottom-right-radius: 6px;}
+			.subpage  .nwmPerson nav a.founded{width:30%; border-bottom-left-radius: 6px;}
+
+	.nwFooter{padding:40px 0; border-top:1px solid #ccc; margin-top:30px;}
+	.nwFooter .nwfLogo{margin-top:20px; padding-top: 20px;}
+	.nwFooter span{float:right; margin-top:-20px;}
+	.nwFooter h6{font-family: Helvetica, Arial, sans-serif;}
+	.nwFooter p{text-align: right; margin:0;}
+
+
+	.nwModal{float:left; position:fixed; background: rgba(255,255,255,0.8); width:100%; height: 100%; z-index: 20; display: none;}
+	.nwModal{}
+	.nwModal .Mbox{background:#fff; padding:20px 30px 10px; width:220px; margin:200px auto 0; box-shadow: 0 0 5px #ccc; display: none; position: relative;}
+	.nwModal .Mbox h6{font-size:20px; border-bottom:1px solid #eee; padding: 0 0 5px; margin-bottom:10px;}
+	.nwModal .Mbox .close{position: absolute; top:-5px; right: 4px;}
+	.nwModal .Mbox input{margin-bottom: 10px;}
+	.nwModal .Mbox button{margin-bottom: 0px;}
+
+	.nwNotifications{width:200px; margin:0 auto;}
+	.nwNotifications p{width:200px; margin:0 auto; padding:10px 20px; font-weight: bold; display: none; position: fixed;}
+	.nwNotifications .success{background:#a1e7ad;}
+	.nwNotifications .error{background:#de666e; color:#fff;}
+
+		.uploadData{background:#fff; padding:10px 20px; box-sizing:border-box; border-radius: 6px;}
+		.uploadData h2{font-family: Helvetica, sans-serif; font-size:20px; font-weight: bold; color:#444; border-bottom:1px solid #eee;}
+		.uploadData {float:left;}
+			.photoUploader{}
+			.profileSingle{margin-top:20px;}
+			.photoUploader img, .photoUploaded img{max-width: 280px;}
+		.reportForm input{width:300px;}
+		.reportForm textarea{width:300px;}
+			.reporter{background:#fff; padding:10px 20px 0; box-sizing:border-box; border-radius: 6px; margin-bottom:20px;}
+			.socialShare{padding-bottom:10px;}
+			.reporter h4{font-family: Helvetica, sans-serif; font-size:16px; font-weight: bold; color:#444; border-bottom:1px solid #eee; margin-bottom:10px;}
+			.reporter ul{margin:15px 0; }
+			.reporter ul li{ font-size:16px; font-weight: bold; color:#888; margin-bottom:5px; }
+
+		.postedList h3{margin:20px 0; border-bottom:1px solid #ddd; padding-bottom:10px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; font-size:20px;}
+		
+		.donateBtn{display: block; text-align:center; padding:15px 0; font-weight:bold; color:#ffffff !important; font-size:22px; background:#da8813; text-decoration: none; border-radius: 6px;}
+		.donateBtn:hover{background: #f49815;}
+
+		.launchingPage {margin: 24% 0 0; }
