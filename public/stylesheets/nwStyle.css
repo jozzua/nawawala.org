@@ -83,3 +83,5 @@ body{background: url(../images/agsquare.png); border-top:3px solid #da8813;}
 		.donateBtn:hover{background: #f49815;}
 
 		.launchingPage {margin: 24% 0 0; }
+	#flash_notice {padding: 10px; background-color: lightblue; margin: 10px 0;}
+	#flash_alert {padding: 10px; background-color: lightcoral; margin: 10px 0;}

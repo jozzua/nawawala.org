@@ -1,4 +1,6 @@
 class ReportsController < ApplicationController
+
+  before_filter :authorize, only: [:edit, :update, :new, :create, :destroy]
   # GET /reports
   # GET /reports.json
   def index
