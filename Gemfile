@@ -27,8 +27,16 @@ group :development, :test do
     gem 'rspec-rails'
     gem 'spork'
     gem 'guard'
+     gem 'guard-rspec', '1.2.1'
+       gem 'annotate', '2.5.0'
 
 end
+
+group :test do
+  gem 'capybara', '1.1.2'
+  gem 'rb-fsevent'
+  gem 'growl', '1.0.3'
+end 
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

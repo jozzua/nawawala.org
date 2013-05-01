@@ -1,4 +1,6 @@
 NawawalaOrg::Application.routes.draw do
+  get "reports/new"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
