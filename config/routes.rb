@@ -1,6 +1,5 @@
 NawawalaOrg::Application.routes.draw do  
 
-
   resources :sessions
   resources :users
   resources :reports
